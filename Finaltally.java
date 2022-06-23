@@ -22,7 +22,7 @@ public class Binary_Item_Tree {
             
 
             public Node2(Node ref, File file) throws IOException{
-                this.ref=ref
+                this.ref=ref;
                 boolean flag = false;
                 Scanner scanner = new Scanner(file);
 
@@ -80,12 +80,14 @@ public class Binary_Item_Tree {
         private Node less_than;
 
         public Node(String Model_no){
+            String val=""
             this.Model_no=Model_no;
             char[] chars = Model_no.toCharArray();
-            this.value = 0;
+            
             for(int i=0; i< chars.length;i++){
-                this.value+= (int)chars[i];
+                this.val+= Integer.toString((int)chars[i]);
             }
+            this.value=Integer.parseInt(val);
             this.amount=1;
             this.total++;
         }
