@@ -25,20 +25,21 @@ How to use the program:
 
 
 
-Instructions for modyfying the keys.txt file:
-    The general format for the keys is Model numbers,..,#, Nickname(Bassically an easily recognsible name)
+Instructions for modifying the keys.txt file:
+    The general format for the keys is Model numbers,..,#, Nickname(Basically an easily recognisable name)
     The # is the indicator for the program to know where the model numbers end so make sure to put it.
 
-    I've separated them by the companies that have made them and have left a space between them. This is purely for organisation, whether the list of keys is 
-    organised or not does not affect the program in the slightest. 
+    I've separated them by the companies that have made them and have left a space between them. This is purely for organization, whether the list of keys is 
+    organized or not does not affect the program in the slightest. 
 
     With all of that said, whenever you want to run this program you will have to save the spreadsheet as a .txt file and the program will most likely ask you to 
     input the name of the text file in question. 
 
-    Even with all of this I can't exactly gurantee that something won't go wrong and the program crashes. The best I can do is to limit the ways it can crash.
+    Even with all of this I can't exactly guarantee that something won't go wrong and the program crashes. The best I can do is to limit the ways it can crash.
     I'm no expert programmer yet so I'm bound to make some oversights. In that case, I'd recommend you either contact me or some programmers in TC if there are
     any. If there are programmers in TC ....Hopefully they won't laugh at my code too much :).
 
     Good luck guys,
 
 -Keith Compere
+
