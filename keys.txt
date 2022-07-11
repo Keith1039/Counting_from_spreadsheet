@@ -1,23 +1,23 @@
-HD-TX-301-C-E-T*, HD-MD-400-C-E-T,#, Crestron Multiformat Switch And Transmitter
-HD-RX-201-C-E-R*,HD-MD-400-C-E-R, ,#, Crestron Multiformat Switch And Receiver
+HD-TX-301-C-E, HD-MD-400-C-E-T,#, Crestron Multiformat Switch And Transmitter
+HD-RX-201-C-E,HD-MD-400-C-E-R, ,#, Crestron Multiformat Switch And Receiver
 HD-RX-101-C-E,#, Crestron Category Cable Receiver
 TT-100-B-T,#, Crestron Cable Caddy
 DM-TXRX-100-STR,#, Crestron HD Streaming Transmitter/Receiver
-TSW-1050-TTK-B-S,#, Crestron Kit?
-TPMC-9-B-T,#, Crestron Tabletop Screen?
+TSW-1050-TTK-B-S,#, Crestron Kit
+TPMC-9-B-T,#, Crestron Tabletop Screen
 AM-200,#, Crestron AirMedia Presentation System 200
 AM-101,#, Crestron AirMedia Presentation Gateway
 CEN-SW-POE-5,#, Crestron 5 Port Power Over Ethernet Switch
 CEN-AVF-HUB,#, Crestron .AV Framework Hub
 CEN-NVS200,#, Crestron Network Video Streamer
 DM-PSU-ULTRA-MIDSPAN,#, Cretron Midspan Power Injector
-TPM-12B?,#, Isys 12" Crestron Tilt Touchpanel, Black
+TPM-12B,#, Isys 12" Crestron Tilt Touchpanel Black
 TPMC-9-B-T,#, 9" Crestron Tilt Touch Screen, Black Textured
 DMPS3-4K-350-C,#, Crestron 3-Series 4k DigitalMedia Presentation System 350
 DMPS3-4K-300-C,#,Crestron 3-Series 4k DigitalMedia Presentation System 300
 
 IN5302,#, InFocus projector
-VC-H955U,#, Sharp VCR/VHS?
+VC-H955U,#, Sharp VCR/VHS
 
 LE24B13800,#, Haier LE24B13800 23.6-Inch 1080p 60Hz LCD TV (Black)
 
