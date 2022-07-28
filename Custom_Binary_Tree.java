@@ -1,179 +1,129 @@
 public class Custom_Binary_Tree{
     public static class Node3{
-        private Node2 node2;
+        private String name;
         private int value;
         private Node3 greater;
         private Node3 lesser;
         private Node3 prev;
-        private int ammount=1;
-        public Node3(Node2 node){
-            this.value = node.getVal();
-            this.node2=node;
+        private int amount=1;
+
+        public Node3(String name){
+            this.name = name;
+            value = getVal(name);
+
+
+        }
+        public Node3(){
+            greater=null;
+            lesser=null;
+            prev=null;
+
+        }
+        public static int getVal(String value){
+            int returnable=0;
+            char[] array = value.toCharArray(); 
+            for(int i=0;i<array.length;i++){
+                returnable+=(int)array[i];
+            }
+            return(returnable);
         }
     }
 
     private Node3 root;
-    private int total =0;
-
-    public Custom_Binary_Tree(){
+    
+    private Custom_Map map;
+    public Custom_Binary_Tree(Custom_Map map){
+        this.map = map;
         root=null;
     }
 
-    public void push(Node3 node ){
+    public void push(String name ){
+
         Boolean flag = false;
-        if(root == null){
-            root= node;
-        }
-        else{
-            Node3 current_node=root;
-            while(flag==false){
-                if(current_node.value<node.value && current_node.greater==null){
-                    current_node.greater=node;
-                    node.prev=current_node;
-                    flag=true;
-                }
-                else if(current_node.value>node.value&&current_node.lesser==null){
-                    current_node.lesser=node;
-                    node.prev=current_node;
-                    flag=true;
-                }
-                else if(current_node.value<node.value){
-                    current_node=current_node.greater;
-                }
-                else if(current_node.value>node.value){
-                    current_node=current_node.lesser;
-                }
-                else if(current_node.value==node.value){
-                    current_node.amount++;
-                    this.total++;
-                    flag=true;
+        String actual_str = map.Get(name);
+        if(actual_str != null){
+            Node3 node = new Node3(actual_str);
+            if(root == null){
+                root= node;
+            }
+            else{
+                Node3 current_node=root;
+                while(flag==false){
+                    if(current_node.value<node.value && current_node.greater==null){
+                        current_node.greater=node;
+                        node.prev=current_node;
+                        flag=true;
+                    }
+                    else if(current_node.value>node.value&&current_node.lesser==null){
+                        current_node.lesser=node;
+                        node.prev=current_node;
+                        flag=true;
+                    }
+                    else if(current_node.value<node.value){
+                        current_node=current_node.greater;
+                    }
+                    else if(current_node.value>node.value){
+                        current_node=current_node.lesser;
+                    }
+                    else if(current_node.value==node.value){
+                        current_node.amount++;
+                        
+                        flag=true;
+                    }
                 }
             }
         }
+
+
     }
-    public String toString(){
-        Node3 current_node=root;
-        if(current_node==null){
-            return("[ ]");
+
+    public String get(String name){
+        Node3 traverseNode = root;
+        String returnable = "";
+        Boolean flag = false;
+        int num =Node3.getVal(name.strip());
+        //System.out.println(total);
+        //System.out.println(num);
+        while(flag == false && traverseNode!= null){
+            //System.out.println(traverseNode.value);
+            if(traverseNode.value==num){
+                returnable+=traverseNode.name+" x"+Integer.toString(traverseNode.amount)+"\n";
+                flag = true;
+            }
+            else if(traverseNode.value< num ){
+                traverseNode=traverseNode.greater;
+            }
+            else if(traverseNode.value > num){
+                traverseNode = traverseNode.lesser;
+            }
         }
-        Boolean flag1=false;
-        String returnable = "[ "+current_node.getValue()+ " x"+Integer.toString(current_node.amount)+", ";
+        //System.out.println(".............................................");
         
-        Node right_side = current_node.greater_than;
-        Node left_side= current_node.less_than;
-        
-        Node most_right=new Node();
-        Node most_left= new Node();
 
-        int tracker2=0;
-        int tracker=0;
-
-        Node new_pos = new Node();
-        while(right_side!= null){
-            returnable+= right_side.getValue()+" x"+Integer.toString(right_side.amount)+", ";
-            if(right_side.greater_than == null){
-                most_right=right_side;
-            }
-            right_side=right_side.greater_than;
-        }
-        while(most_right!=root && most_right.getValue() != null){
-            if(new_pos== most_right){
-                most_right=most_right.prev;
-                tracker2=0;
-            }
-            if(most_right.less_than!= null && tracker2 ==0){
-                new_pos=most_right.less_than;
-                tracker2=1;
-                returnable+= new_pos.getValue()+" x"+Integer.toString(new_pos.amount)+", ";
-                right_side=new_pos.greater_than;
-                while(right_side!= null){
-                    returnable+= right_side.getValue()+" x"+Integer.toString(right_side.amount)+", ";
-                    if(right_side.greater_than == null){
-                        new_pos=right_side;
-                    }
-                    right_side=right_side.greater_than;
-                }
-            }
-            if(most_right.less_than == null){
-                most_right=most_right.prev;
-                tracker2=0;
-            }
-
-            if(new_pos.less_than==null && new_pos.prev != null){
-                new_pos=new_pos.prev;
-
-            }
-            if(new_pos.less_than != null && returnable.indexOf(new_pos.less_than.getValue())==-1 ){
-                new_pos=new_pos.less_than;
-                returnable+= new_pos.getValue()+" x"+Integer.toString(new_pos.amount)+", ";
-                right_side=new_pos.greater_than;
-                while(right_side!= null){
-                    returnable+= right_side.getValue()+" x"+Integer.toString(right_side.amount)+", ";
-                    if(right_side.greater_than == null){
-                        new_pos=right_side;
-                    }
-                    right_side=right_side.greater_than;
-                }
-            }
-            if(new_pos.less_than != null && returnable.indexOf(new_pos.less_than.getValue())!=-1){
-                new_pos=new_pos.prev;
-            }
-            
-        }
-
-        while(left_side!= null){
-            returnable+= left_side.getValue()+" x"+Integer.toString(left_side.amount)+", ";
-            if(left_side.less_than == null){
-                most_left=left_side;
-            }
-            left_side=left_side.less_than;
-        }
-        
-        while(most_left!=root && root.less_than != null){
-            new_pos= new Node();
-            if(new_pos== most_left){
-                most_left=most_left.prev;
-                tracker2=0;
-            }
-            if(most_left.greater_than!= null && tracker2 ==0){
-                new_pos=most_right.greater_than;
-                tracker2=1;
-                returnable+= new_pos.getValue()+" x"+Integer.toString(new_pos.amount)+", ";
-                left_side=new_pos.less_than;
-                while(left_side!= null){
-                    returnable+= left_side.getValue()+" x"+Integer.toString(left_side.amount)+", ";
-                    if(left_side.less_than == null){
-                        new_pos=left_side;
-                    }
-                    left_side=left_side.less_than;
-                }
-            }
-            if(most_left.greater_than == null){
-                most_left=most_left.prev;
-                tracker2=0;
-            }
-
-            if(new_pos.greater_than==null && new_pos.prev!= null){
-                new_pos=new_pos.prev;
-            }
-            if(new_pos.greater_than != null && returnable.indexOf(new_pos.greater_than.getValue())==-1){
-                new_pos=new_pos.greater_than;
-                returnable+= new_pos.getValue()+" x"+Integer.toString(new_pos.amount)+", ";
-                left_side=new_pos.less_than;
-                while(left_side!= null){
-                    returnable+= left_side.getValue()+" x"+Integer.toString(left_side.amount)+", ";
-                    if(left_side.less_than == null){
-                        new_pos=left_side;
-                    }
-                    left_side=left_side.less_than;
-                }
-            }
-            if(new_pos.greater_than!= null && returnable.indexOf(new_pos.greater_than.getValue())!=-1){
-                new_pos=new_pos.prev;
-            }
-            
-        }
-        returnable+="]";
         return(returnable);
     }
+    public int getAmount(String name){
+        Node3 traverseNode = root;
+        int returnable=0;
+        Boolean flag = false;
+        int num =Node3.getVal(name.strip());
+        //System.out.println(total);
+        //System.out.println(num);
+        while(flag == false && traverseNode!= null){
+            //System.out.println(traverseNode.value);
+            if(traverseNode.value==num){
+                returnable = traverseNode.amount;
+                flag = true;
+            }
+            else if(traverseNode.value< num ){
+                traverseNode=traverseNode.greater;
+            }
+            else if(traverseNode.value > num){
+                traverseNode = traverseNode.lesser;
+            }
+        }
+        return(returnable);
+    }
+    
+
 }

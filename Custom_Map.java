@@ -1,28 +1,5 @@
 public class Custom_Map{
-    public static class Node2{
-        private KeyList keylist;
-        private String value;
-        private Node2 next;
-
-        public Node2(KeyList keylist, String value){
-            this.keylist=keylist;
-            this.value=value;
-            this.next=null;
-        }
-        public int getVal(){
-            int returnable=0;
-            String digitstring="";
-            char[] array = value.toCharArray(); 
-            for(int i=0;i<array.length;i++){
-                digitstring+=(int)array[i];
-            }
-            returnable=Integer.parseInt(digitstring);
-            return(returnable);
-        }
-        public String getValue(){
-            return(this.value);
-        }
-    }
+   
 
     private Node2 first;
     private Node2 last;
@@ -38,29 +15,62 @@ public class Custom_Map{
             last=first;
         }
         else{
-            last.next=node;
-            last=last.next;
+            last.setNext(node);
+            last=last.getNext();
         }
     }
 
     public String Get(String name){ //nickname of device
         Boolean flag = false;
-        String returnable;
+        String returnable="";
         Node2 traverseNode = first;
         while(flag==false &&traverseNode!= null){
-            if(traverseNode.keylist.isIn(name)==true){
+            if(traverseNode.getKeyList().isIn(name)==true){
                 flag=true;
-                returnable = traverseNode.value;
+                returnable = traverseNode.getValue();
             }
-            else{
-                traverseNode=traverseNode.next;
-            }
+            traverseNode=traverseNode.getNext();
+            
         }
         if(flag == false){
             return(null);
         }
         else{
-            return(returnable);
+            return(returnable.strip());
         }
     }
+
+    public boolean isValue(String value){
+        Node2 traverseNode = first;
+        Boolean flag = false;
+        while(traverseNode != null && flag == false){
+            if(traverseNode.getKeyList().isIn(value)==true){
+                flag = true;
+            }
+            traverseNode = traverseNode.getNext();
+        }
+        //System.out.println(flag);
+
+        return(flag);
+    }
+    public Node2 getFirst(){
+        return(first);
+    }
+
+    public String toString(){
+        String returnable = "(";
+        Node2 traverseNode = first;
+        while(traverseNode!= null){
+            returnable+=traverseNode.toString();
+            if(traverseNode.getNext()!=null){
+                returnable+="\n"+"\n";
+            }
+            traverseNode=traverseNode.getNext();
+
+
+        }
+        returnable+=" )";
+        return(returnable);
+    }
+    
 }

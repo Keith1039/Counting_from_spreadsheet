@@ -1,5 +1,5 @@
-HD-TX-301-C-E, HD-MD-400-C-E-T,#, Crestron Multiformat Switch And Transmitter
-HD-RX-201-C-E,HD-MD-400-C-E-R, ,#, Crestron Multiformat Switch And Receiver
+HD-TX-301-C-E, HD-MD-400-C-E-T,HD-MD-400-C-E T,#, Crestron Multiformat Switch And Transmitter
+HD-RX-201-C-E,HD-MD-400-C-E-R,HD-MD-400-C-E R,#, Crestron Multiformat Switch And Receiver
 HD-RX-101-C-E,#, Crestron Category Cable Receiver
 TT-100-B-T,#, Crestron Cable Caddy
 DM-TXRX-100-STR,#, Crestron HD Streaming Transmitter/Receiver
@@ -17,6 +17,7 @@ DMPS3-4K-350-C,#, Crestron 3-Series 4k DigitalMedia Presentation System 350
 DMPS3-4K-300-C,#,Crestron 3-Series 4k DigitalMedia Presentation System 300
 
 IN5302,#, InFocus projector
+
 VC-H955U,#, Sharp VCR/VHS
 
 LE24B13800,#, Haier LE24B13800 23.6-Inch 1080p 60Hz LCD TV (Black)

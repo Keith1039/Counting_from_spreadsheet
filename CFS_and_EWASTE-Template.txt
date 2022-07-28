@@ -1,0 +1,418 @@
+Computers for Schools (CFS)		Desktops	0						
+		Laptops	0						
+Your Consignee No. is: 	T8086	Monitors	0						
+Custodian Report Number: 	T8086SU	Tablets	0						
+Type	Make	Model	Asset	Serial	Column1	Column2			
+	Crestron	HD-TX-301-C-E 						
+	Crestron	HD-RX-201-C-E 						
+	Crestron	HD-TX-301-C-E							
+	Crestron	HD-MD-400-C-E T							
+	Crestron	HD-MD-400-C-E T						
+	Crestron	HD-MD-400-C-E R						
+	Crestron	HD-MD-400-C-E T							
+	Crestron	HD-MD-400-C-E R							
+	Crestron	HD-RX-201-C-E							
+	Crestron	HD-MD-400-C-E R							
+	Crestron	HD-MD-400-C-E R							
+	Crestron	HD-MD-400-C-E T						
+	Crestron	HD-MD-400-C-E R							
+	Crestron	HD-MD-400-C-E T							
+	Crestron	HD-MD-400-C-E R							
+	Crestron	HD-MD-400-C-E T							
+	Crestron	HD-MD-400-C-E R							
+	Crestron	HD-MD-400-C-E T							
+	Crestron	HD-RX-201-C-E							
+	Crestron	HD-MD-400-C-E R							
+	Crestron	HD-RX-201-C-E						
+	Crestron	HD-TX-301-C-E						
+	Crestron	HD-MD-400-C-E T						
+	Crestron	DM-TXRX-100-STR 						
+	Crestron	AM-200							
+	Crestron	AM-200							
+	Crestron	TT-100-B-T							
+	Crestron	TT-100-B-T							
+	Crestron	TT-100-B-T						
+	Crestron	HD-RX-201-C-E						
+	Crestron	HD-TX-301-C-E						
+	Crestron	HD-TX-301-C-E						
+	Crestron	HD-RX-201-C-E						
+	Crestron	HD-TX-301-C-E						
+	Crestron	HD-RX-201-C-E				
+	Crestron	HD-TX-301-C-E							
+	Crestron	HD-RX-201-C-E							
+	Crestron	HD-RX-201-C-E					
+	Crestron	HD-TX-101-C-E T					
+	Crestron	HD-RX-101-C-E R						
+	Crestron	HD-RX-201-C-E					
+	Crestron	HD-RX-101-C-E R	
+	Crestron	HD-TX-101-C-E T		
+	Crestron	HD-TX-301-C-E					
+	Crestron	HD-TX-301-C-E					
+	Crestron	HD-RX-201-C-E					
+	Crestron	HD-RX-201-C-E					
+	Crestron	HD-TX-301-C-E					
+	Crestron	HD-TX-301-C-E				
+	Crestron	TT-100-B-T					
+	Crestron	TT-100-B-T						
+	Crestron	TT-100-B-T						
+	Crestron	TT-100-B-T						
+	Crestron	TT-100-B-T					
+	Crestron	TT-100-B-T						
+	Crestron	AM-200					
+	Crestron	AM-200					
+	Crestron	AM-200						
+	Crestron	CEN-SW-POE-5						
+	Crestron	DM-TXRX-100-STR 							
+	Crestron	DM-TXRX-100-STR 							
+	Crestron	CEN-AVF-HUB							
+	Crestron	AM-101						
+	Crestron	AM-101						
+	Crestron	AM-101						
+	Crestron	AM-101						
+	Crestron	AM-101						
+	Crestron	AM-101						
+	Crestron	AM-101						
+	Crestron	AM-101						
+	Crestron	CEN-AVF-HUB						
+	Crestron	CEN-NVS200							
+	Crestron	CEN-AVF-HUB						
+	Crestron	CEN-AVF-HUB						
+	Crestron	DM-PSU-ULTRA-MIDSPAN							
+	Crestron	AM-200						
+	Crestron	AM-200						
+	Crestron	HD-RX-201-C-E					
+	Crestron	HD-TX-301-C-E						
+	Crestron	AM-200						
+	Crestron	HD-TX-301-C-E						
+	ClearOne	Wireless Dect Conference Phone						
+	Crestron	TSW-1050-TTK-B-S						
+	Crestron	TPM-12B						
+	Crestron	TPMC-9-B-T							
+	Crestron	TPMC-9-B-T						
+	FOR-A	HVS-30 OU    	 					
+	Crestron	TT-100-B-T						
+	Crestron	TT-100-B-T							
+	Crestron	HD-MD-400-C-E R						
+	Crestron	AM-200							
+	Samsung	 LN-T3242H						
+	Polycom	 P009	IT114609					
+	Double Robotics	 Double-1							
+	Double Robotics	 Double-1						
+	Crestron	DMPS3-4K-350-C						
+	Crestron	DMPS3-4K-300-C						
+	Crestron	HD-RX-201-C-E						
+	ViewSonic	N1930w-2M					
+	Hitachi	 CP-X8150						
+	Hitachi	 CP-X8150							
+	Hitachi	 CP-X8150						
+	Hitachi	 LP-WU3500					
+	Toshiba	 D-VR6KC						
+	JVC		RX-6042S		
+	Nortel Networks	 BayStack5510-48T Switch`						
+	Middle Atlantic Products Inc	PD-915R					
+	Middle Atlantic Products Inc	PD-915RV-RN						
+	Middle Atlantic Products Inc	PD-915RV-RN					
+	Haier	LE24B13800						
+	Toshiba	26LV610C-T							
+	Sharp	VC-H955U						
+	Hitachi	 CP-X3010Z						
+	Hitachi	 CP-X3010N							
+	Polycom	SoundStructure C12							
+	ClearOne	Converge Pro 880 TA							
+	InFocus	 IN5302							
+	Hitachi	 CP-WX8255A						
+	Crestron	HD-MD-400-C-E-R							
+	Crestron	HD-MD-400-C-E-T							
+	Crestron	HD-MD-400-C-E-R 					
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-R						
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-R						
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-T							
+	Crestron	HD-MD-400-C-E-R							
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-R							
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-R					
+	Crestron	HD-MD-400-C-E-R						
+	Crestron	HD-MD-400-C-E-T						
+	Crestron 	HD-MD-400-C-E-T					
+	Crestron	HD-MD-400-C-E-R							
+	Crestron	HD-TX-301-C-E							
+	Crestron	HD-RX-201-C-E 							
+	Crestron	DM-TX-4K-302-C						
+	Cresron	 DM-TX-4K-302-C	H 				
+	Kramer	PT-571						
+	Crestron	HD-MD-400-C-E-R						
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-R				
+	Crestron	HD-MD-400-C-E-T					
+	Middle Atlantic Products Inc	PD-815R-PL						
+	Crestron	HD-MD-400-C-E-R						
+	Crestron	HD-MD-400-C-E-T							
+	Crestron	HD-MD-400-C-E-T							
+	Crestron	HD-MD-400-C-E-R							
+	Crestron	HD-MD-400-C-E-T						
+	Crestron	HD-MD-400-C-E-T							
+	Crestron	HD-MD-400-C-E-R						
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									

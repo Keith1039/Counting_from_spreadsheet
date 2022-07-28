@@ -30,13 +30,26 @@ public class KeyList{
         Node1 traverseNode = first;
         Boolean flag = false;
         while(traverseNode!=null && flag == false){
-            if(traverseNode.name==name){
+            if(traverseNode.name.equals(name)){
                 flag=true;
             }
-            else{
-                traverseNode=traverseNode.next;
-            }
+            traverseNode = traverseNode.next; 
         }
+        
         return(flag);
+    }
+
+    public String toString(){
+        String returnable= " ";
+        Node1 traversNode = first;
+        while(traversNode!= null){
+            returnable+=traversNode.name;
+            if(traversNode.next!=null){
+                returnable+=",";
+            }
+            traversNode=traversNode.next;
+        }
+        return(returnable);
+
     }
 }
