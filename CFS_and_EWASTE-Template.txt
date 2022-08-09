@@ -41,11 +41,11 @@ Type	Make	Model	Asset	Serial	Column1	Column2
 	Crestron	HD-TX-301-C-E							
 	Crestron	HD-RX-201-C-E							
 	Crestron	HD-RX-201-C-E					
-	Crestron	HD-TX-101-C-E T					
-	Crestron	HD-RX-101-C-E R						
+	Crestron	HD-TX-101-C-E 					
+	Crestron	HD-RX-101-C-E 						
 	Crestron	HD-RX-201-C-E					
-	Crestron	HD-RX-101-C-E R	
-	Crestron	HD-TX-101-C-E T		
+	Crestron	HD-RX-101-C-E 
+	Crestron	HD-TX-101-C-E 	
 	Crestron	HD-TX-301-C-E					
 	Crestron	HD-TX-301-C-E					
 	Crestron	HD-RX-201-C-E					
@@ -108,7 +108,7 @@ Type	Make	Model	Asset	Serial	Column1	Column2
 	Hitachi	 LP-WU3500					
 	Toshiba	 D-VR6KC						
 	JVC		RX-6042S		
-	Nortel Networks	 BayStack5510-48T Switch`						
+	Nortel Networks	 BayStack5510-48T Switch						
 	Middle Atlantic Products Inc	PD-915R					
 	Middle Atlantic Products Inc	PD-915RV-RN						
 	Middle Atlantic Products Inc	PD-915RV-RN					
@@ -144,7 +144,7 @@ Type	Make	Model	Asset	Serial	Column1	Column2
 	Crestron	HD-TX-301-C-E							
 	Crestron	HD-RX-201-C-E 							
 	Crestron	DM-TX-4K-302-C						
-	Cresron	 DM-TX-4K-302-C	H 				
+	Crestron	 DM-TX-4K-302-C	H 				
 	Kramer	PT-571						
 	Crestron	HD-MD-400-C-E-R						
 	Crestron	HD-MD-400-C-E-T						

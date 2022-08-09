@@ -1,5 +1,5 @@
 Crestron
-For-A
+FOR-A
 Samsung
 Polycom
 Double Robotics
@@ -12,3 +12,5 @@ Haier
 Toshiba
 Sharp
 InFocus
+ClearOne
+Kramer

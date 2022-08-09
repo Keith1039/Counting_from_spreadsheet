@@ -97,6 +97,8 @@ public class Tally{
         return(map);
     }
     public static Custom_Binary_Tree makeBinary_Tree(Custom_Map map,File e_waste_file, File companies_file) throws IOException{
+        int z =1;
+        boolean flager = false;
         Custom_Binary_Tree tree = new Custom_Binary_Tree(map);
         Scanner scanner = new Scanner(e_waste_file);
         LinkedList companies = makeComlist(companies_file);
@@ -104,6 +106,7 @@ public class Tally{
         //    scanner.nextLine();
         //}
         while(scanner.hasNext()==true){
+            
             String word = "";
             char[] array = scanner.nextLine().strip().toCharArray();
             boolean flag1 = false;
@@ -126,7 +129,13 @@ public class Tally{
                 }
             }
             //System.out.println(flag2);
-            tree.push(word.strip());
+            flager =tree.push(word.strip());
+            
+            if(flager == false){
+                System.out.println("Line "+Integer.toString(z)+" has an unregistered key: "+word.strip());
+            }
+            
+            z++;
         }
 
         scanner.close();

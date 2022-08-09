@@ -37,14 +37,15 @@ public class Custom_Binary_Tree{
         root=null;
     }
 
-    public void push(String name ){
-
+    public Boolean push(String name ){
+        //Boolean truflag = false;
         Boolean flag = false;
         String actual_str = map.Get(name);
         if(actual_str != null){
             Node3 node = new Node3(actual_str);
             if(root == null){
                 root= node;
+                flag = true;
             }
             else{
                 Node3 current_node=root;
@@ -73,6 +74,8 @@ public class Custom_Binary_Tree{
                 }
             }
         }
+        return(flag);
+
 
 
     }
