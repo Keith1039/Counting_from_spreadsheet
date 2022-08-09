@@ -18,12 +18,12 @@ How to use the program:
     1: save the spreadsheet as a text file
     2: put the text file in the same folder as the program files(java files) and the keys.txt and companies.txt file
     3: Make sure the names of the files are correct(CFS_and_EWASTE-Template.txt, keys.txt and Companies.txt)
-    4: run the program using the terminal
+    4: run the Tally.java file using the terminal
     5: Watch as the program tallies everything for you :)
 
     WARNING: 
     keys.txt and Companies.txt HAVE to be updated in order for the program to work.
-    
+
 Instructions for modifying Companies.txt file:
     Simply add the new company on the line after the latest one. Each line should have 1 company name on it.
 
