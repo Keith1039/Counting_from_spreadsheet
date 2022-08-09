@@ -21,6 +21,9 @@ How to use the program:
     4: run the program using the terminal
     5: Watch as the program tallies everything for you :)
 
+    WARNING: 
+    keys.txt and Companies.txt HAVE to be updated in order for the program to work.
+    
 Instructions for modifying Companies.txt file:
     Simply add the new company on the line after the latest one. Each line should have 1 company name on it.
 
